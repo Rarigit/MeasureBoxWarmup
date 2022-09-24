@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: bisque;
+}
+
+header{
+    font-size: 2rem;
+    font-size: 14pt;
+}
+
+#logo{
+    width: 75px;
+}
+
+.post{
+    width: 25vw;
+    border: solid black 2px;
+    margin: 1cm;
+}
+
+.post > h2 {
+    font-size: 1.5em;
+}
+
+.post > p{
+    width: 50%;
+    /*margin-left: 25%;*/
+    transform: translateX(50%);
+}
